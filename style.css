@@ -1,0 +1,72 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Titres principaux */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+/* Sous-titres */
+h2 {
+    color: #2980b9;
+    margin-top: 25px;
+}
+
+/* Paragraphe */
+p {
+    margin: 10px 0;
+}
+
+/* Listes */
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    background: #fff;
+    padding: 10px;
+    border-left: 5px solid #3498db;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+}
+
+/* Images dans les listes */
+ul li img {
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+/* Images isolées */
+img {
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Lien retour */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #3498db;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #2980b9;
+}
